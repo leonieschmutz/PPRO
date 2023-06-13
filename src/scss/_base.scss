@@ -3,6 +3,9 @@
 // ==================================== */
 
 :root {
+  --main-color: #0c0c0c;
+  --second-color: #fdfdfd;
+  --main-font-family: "itc-avant-garde-gothic-pro", sans-serif;
 }
 
 /* ====================================
@@ -26,6 +29,7 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
+  background-color: var(--main-color);
 }
 
 a {
@@ -39,6 +43,41 @@ video {
   vertical-align: middle;
 }
 
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  // padding-top: 12px;
+  // padding-bottom: 12px;
+  // padding: 12px 0;
+  // background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
+
 /* ====================================
 // base rules
 // ==================================== */
+
+h1 {
+  font-size: 71px;
+  font-family: var(--main-font-family);
+  color: var(--second-color);
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: var(--main-font-family);
+  color: var(--second-color);
+  opacity: 0.8;
+  font-weight: 500;
+}
+
+p {
+  font-family: var(--main-font-family);
+  font-size: 20px;
+  color: var(--main-color);
+  font-weight: 500;
+}
