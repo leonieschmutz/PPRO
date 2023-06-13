@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.nav-website-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  a {
+    margin-left: 20px;
+    margin-right: 15px;
+  }
+}
+
+.nav-website-accessibility {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

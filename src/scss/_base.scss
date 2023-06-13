@@ -43,18 +43,18 @@ video {
   vertical-align: middle;
 }
 
-.row + .row {
-  margin-top: 16px;
-}
+// .row + .row {
+//   margin-top: 16px;
+// }
 
-.row > .col,
-.row > [class^="col-"] {
-  // padding-top: 12px;
-  // padding-bottom: 12px;
-  // padding: 12px 0;
-  // background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
-}
+// .row > .col,
+// .row > [class^="col-"] {
+//   padding-top: 12px;
+//   padding-bottom: 12px;
+//   padding: 12px 0;
+//   background-color: rgba(86, 61, 124, 0.15);
+//   border: 1px solid rgba(86, 61, 124, 0.2);
+// }
 
 /* ====================================
 // base rules
@@ -80,4 +80,11 @@ p {
   font-size: 20px;
   color: var(--main-color);
   font-weight: 500;
+}
+
+a {
+  font-family: var(--main-font-family);
+  font-weight: 300;
+  font-size: 18px;
+  color: var(--second-color);
 }
