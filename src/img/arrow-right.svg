@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="28.7487571px" viewBox="0 0 39 28.7487571" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow-right</title>
+    <g id="home-page-eikonica-scroll-horizontal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Medium-scroll-vertical" transform="translate(-59, -2683)" stroke="#FFFFFF" stroke-width="4">
+            <g id="main" transform="translate(0, 1602)">
+                <g id="expositions" transform="translate(0, 1020)">
+                    <g id="arrow-right" transform="translate(61, 63)">
+                        <line x1="35" y1="12.3743785" x2="0" y2="12.3743785" id="Path"></line>
+                        <line x1="35" y1="12.3743785" x2="22.6256215" y2="-7.10542736e-15" id="Path"></line>
+                        <line x1="22.6256215" y1="24.7487571" x2="35" y2="12.3743785" id="Path"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
