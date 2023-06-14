@@ -1,0 +1,26 @@
+.expositions-block {
+  position: relative;
+}
+
+.expositions-title {
+  opacity: 0;
+  position: absolute;
+  top: 180px;
+  left: 25px;
+  z-index: 2;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  transition-property: opacity;
+  transition-duration: 0.4s;
+
+  .button {
+    align-self: center;
+  }
+}
+
+.expositions-title:hover {
+  opacity: 1;
+}
