@@ -74,6 +74,28 @@ h2 {
   opacity: 0.8;
   font-weight: 500;
 }
+h3 {
+  font-family: var(--main-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--second-color);
+  opacity: 0.8;
+}
+
+h4 {
+  font-family: var(--main-font-family);
+  font-size: 36px;
+  font-weight: 500;
+  color: var(--second-color);
+}
+
+h5 {
+  font-family: var(--main-font-family);
+  font-size: 40px;
+  color: var(--second-color);
+  opacity: 0.8;
+  font-weight: 500;
+}
 
 p {
   font-family: var(--main-font-family);
@@ -87,4 +109,15 @@ a {
   font-weight: 300;
   font-size: 18px;
   color: var(--second-color);
+}
+
+ul {
+  list-style-type: none;
+  margin: 40px 0 70px;
+  li {
+    font-family: var(--main-font-family);
+    font-size: 21px;
+    color: var(--second-color);
+    padding: 10px 0;
+  }
 }
