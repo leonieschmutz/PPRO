@@ -138,4 +138,13 @@ ul {
   border-radius: 25px;
   align-self: flex-end;
   display: inline;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.button:hover {
+  background-color: var(--second-color);
+  a {
+    color: var(--main-color);
+  }
 }
