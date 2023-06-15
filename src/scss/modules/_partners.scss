@@ -1,0 +1,14 @@
+.partners-name {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  margin-bottom: 60px;
+  p {
+    font-family: var(--main-font-family);
+    font-size: 56px;
+    color: var(--second-color);
+    font-weight: 300;
+    padding: 0 0 0 20px;
+  }
+}
