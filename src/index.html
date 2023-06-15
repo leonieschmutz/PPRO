@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <title>eikon parcel starter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDi1-FhdRj9eQj4V0RCmrW3RWmjHHjx_H4&libraries=places&callback=initMap"></script>
     <link rel="stylesheet" href="scss/main.scss" />
     <link rel="stylesheet" href="https://use.typekit.net/ngz3zrf.css" />
   </head>
@@ -198,8 +199,87 @@
           </div>
         </div>
       </div>
+      <div class="information">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3>infos pratiques</h3>
+              <div class="accessibility-information">
+                <img src="../src/img/arrow-right.svg" alt="une flèche" />
+                <p>passe ta souris sur les blocks pour les découvrir !</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="row g-0 d-flex justify-content-end">
+            <div class="col-6 information-map" id="map"></div>
+            <div class="col-6">
+              <div class="information-content">
+                <div class="information-block">
+                  <h6 class="ouioui">Accès</h6>
+                  <dl>
+                    <dt>Accès</dt>
+                    <dd>
+                      Les expositions, conférences et ateliers se déroulent à
+                      eikon, Route Wilhelm Kaiser 13, 1700 Fribourg.
+                    </dd>
+                    <dd>
+                      Les concerts ont lieu à fri-son, Rte de la Fonderie 13,
+                      1700 Fribourg.
+                    </dd>
+                  </dl>
+                </div>
+                <div class="information-block">
+                  <h6>Transports</h6>
+                  <dl>
+                    <dt>Transports</dt>
+                    <dd>
+                      Le quartier ne disposant que de peu de places de parc,
+                      mais le festival est facilement accessible en transports
+                      publics, les lignes 1, 3, 7, 8 et 9 (arrêt Charmettes)
+                      desservent toute l’endroit.
+                    </dd>
+                    <dd><a href="#">Recherche itinéraire</a></dd>
+                  </dl>
+                </div>
+              </div>
+              <div class="information-content">
+                <div class="information-block">
+                  <h6>Tarifs</h6>
+                  <dl>
+                    <dt>Tarifs</dt>
+                    <dd>
+                      Toutes les expositions, conférences et ateliers sont
+                      gratuites.
+                    </dd>
+                    <dd>
+                      L’entrée des concerts se monte à 15frs le vendredi et
+                      25frs le samedi. Réservation des billets sur le site
+                      frison.ch
+                    </dd>
+                  </dl>
+                </div>
+                <div class="information-block">
+                  <h6>Réserva-<br />tions</h6>
+                  <dl>
+                    <dt>Réservations</dt>
+                    <dd>
+                      Le nombre de places pour les conférences, ateliers et
+                      concert est limité, il est donc conseillé de réserver une
+                      place au préalable sur le site internet de l’évènement.
+                    </dd>
+                    <dd>
+                      <div class="button"><a href="#">réserver</a></div>
+                    </dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
-
     <script src="js/main.js" type="module"></script>
   </body>
 </html>

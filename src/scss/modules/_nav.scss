@@ -3,6 +3,26 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   padding: 15px 0;
+
+  a {
+    position: relative;
+    text-decoration: none;
+  }
+  a::after {
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    content: "";
+    display: block;
+    height: 1.5px;
+    width: 0;
+    background: white;
+    transition: 0.3s ease all;
+  }
+
+  a:hover::after {
+    width: 80%;
+  }
 }
 
 .nav-website-content {

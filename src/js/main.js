@@ -27,3 +27,18 @@ function createCircle(bg) {
   }, 8500);
   bg.appendChild(circle);
 }
+
+function initMap() {
+  var options = {
+    center: { lat: 46.79468556386549, lng: 7.156063246585524 },
+    zoom: 15,
+  };
+  var map = new google.maps.Map(document.getElementById("map"), options);
+  var marker = new google.maps.Marker({
+    position: { lat: 46.79468556386549, lng: 7.156063246585524 },
+    map: map,
+    title: "Mon lieu ciblé",
+  });
+}
+
+initMap();
