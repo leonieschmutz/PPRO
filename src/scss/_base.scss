@@ -20,6 +20,7 @@
 
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -131,6 +132,7 @@ ul {
     padding: 10px 0;
   }
 }
+
 dl {
   opacity: 0;
   transition-property: opacity;
