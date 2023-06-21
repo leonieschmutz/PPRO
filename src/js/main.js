@@ -229,6 +229,18 @@ function initMap() {
   });
 }
 
+function changeNav() {
+  var navBar = document.getElementById("navbar");
+  var scrollValue = window.scrollY;
+  if (scrollValue < 1637) {
+    navBar.classList.remove("nav-fixed");
+  } else {
+    navBar.classList.add("nav-fixed");
+  }
+}
+
+window.addEventListener("scroll", changeNav);
+
 // var sizeSwitch = 80;
 // var switchHandle = $("#switch .draggable-switch-handle");
 // var option1 = $("#option1");
