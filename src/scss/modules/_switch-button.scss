@@ -1,0 +1,43 @@
+.switch {
+  visibility: hidden;
+  position: absolute;
+}
+
+.switch + label {
+  display: block;
+  height: 23px;
+  width: 45px;
+  position: relative;
+  background-color: white;
+  box-shadow: 0px -2px 12px 0px rgba(0, 0, 0, 0.35) inset;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.switch + label::before {
+  display: block;
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 0.5px;
+  bottom: 10px;
+  border-radius: 100%;
+  width: 22px;
+  height: 22px;
+  background-color: black;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.switch + label,
+.switch + label::before {
+  transition: all 0.4s;
+}
+
+.switch:checked + label {
+  background-color: black;
+}
+
+.switch:checked + label::before {
+  margin-left: 25px;
+  background-color: white;
+}
