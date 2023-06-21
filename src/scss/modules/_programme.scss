@@ -11,6 +11,30 @@
   }
 }
 
+.programme-day {
+  width: 100%;
+  height: 100%;
+}
+
+.programme-date {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.programme-date img {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+}
+
+.programme-date:hover {
+  img {
+    opacity: 1;
+  }
+}
+
 .programme-call-to-action-button {
   padding: 15px 60px;
   background-color: var(--second-color);
@@ -30,4 +54,8 @@
   a {
     color: var(--second-color);
   }
+}
+
+.programme-content {
+  max-height: 880px;
 }
