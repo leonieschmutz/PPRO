@@ -1,0 +1,54 @@
+// $color-switch-handle: #a8b1bb;
+// $color-switch-background: #444a53;
+// $color-active: #fff;
+
+// $size-switch: 22px;
+
+// .draggable-switch {
+//   margin: $size-switch auto;
+//   width: 159.5px; /* Résultat de $size-switch * 7.25 en pixels */
+//   height: 44px; /* Résultat de $size-switch * 2 en pixels */
+// }
+
+// .option {
+//   color: $color-switch-handle;
+//   display: block;
+//   height: 22px; /* Résultat de $size-switch en pixels */
+//   line-height: 22px; /* Résultat de $size-switch en pixels */
+//   padding: 2.2px 5.5px; /* Résultat de $size-switch / 10 et $size-switch / 4 en pixels */
+//   font-size: 9.6px;
+//   float: left;
+//   cursor: pointer;
+//   width: 45px; /* Largeur du switch en pixels */
+
+//   &#option1 {
+//     text-align: right;
+//   }
+
+//   &#option2 {
+//     text-align: left;
+//   }
+
+//   &.active {
+//     color: $color-active;
+//   }
+// }
+
+// #switch {
+//   background: $color-switch-background;
+//   cursor: pointer;
+//   display: block;
+//   position: relative;
+//   float: left;
+//   width: 45px; /* Largeur du switch en pixels */
+//   padding: 2.2px; /* Résultat de $size-switch / 10 en pixels */
+//   border-radius: 45px; /* Utilisation de la propriété border-radius avec une valeur de rayon équivalente */
+// }
+
+// .draggable-switch-handle {
+//   display: block;
+//   background: $color-switch-handle;
+//   height: 22px; /* Résultat de $size-switch en pixels */
+//   width: 22px; /* Résultat de $size-switch en pixels */
+//   border-radius: 22px; /* Utilisation de la propriété border-radius avec une valeur de rayon équivalente */
+// }

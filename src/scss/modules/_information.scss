@@ -22,38 +22,6 @@
   flex-direction: row;
 }
 
-// .information-block {
-//   position: relative;
-//   width: 360px;
-//   height: 360px;
-//   padding: 0 15px;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
-//   background-color: var(--second-color);
-//   border: 1px solid var(--main-color);
-//   border-radius: 25px;
-
-//   h6 {
-//     position: absolute;
-//     color: var(--main-color);
-//     left: 25%;
-//     top: 25%;
-//     text-align: left;
-//     transition-property: color;
-//     transition-duration: 0.5s;
-//   }
-
-//   h6:hover {
-//     color: var(--second-color);
-//   }
-
-//   a {
-//     align-self: flex-start;
-//   }
-// }
-
 .information-block {
   position: relative;
   width: 360px;
